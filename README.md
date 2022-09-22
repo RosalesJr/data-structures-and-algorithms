@@ -22,3 +22,4 @@ To run your tests
 
 - [Array Reverse Challenge](./javascript/class401-challenges/array.reverse.md)
 - [Insert Shift Array](./javascript/class401-challenges/array-insert-shift.md)
+- [Array Binary Search](./javascript/class401-challenges/array-binary-search.md)
