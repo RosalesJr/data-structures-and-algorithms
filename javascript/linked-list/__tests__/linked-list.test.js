@@ -4,6 +4,8 @@ const LinkedList = require('../index');
 
 describe('Linked List', () => {
   let list = new LinkedList;
+  let newList = new LinkedList;
+
 
   test('Can successfully instantiate an empty linked list', () => {
     expect(list.head).toBeNull();
@@ -39,5 +41,29 @@ describe('Linked List', () => {
   test('Can properly return a collection of all the values that exist in the linked list', () => {
     const testString = `{${'e'}} -> {${'u'}} -> {${'l'}} -> {${'a'}} -> {${'v'}} -> NULL`;
     expect(list.string()).toBe(testString);
+  });
+  it('Can successfully add a node to the end of the linked list', () => {
+    newList.append('test');
+    newList.append('x');
+    expect(newList.head.next.value).toEqual('x');
+  });
+
+  it('Can successfully add multiple nodes to the end of a linked list', () => {
+    expect(newList.head.next.next).toBeFalsy();
+  });
+
+  it('Can successfully insert a node before the first node of a linked list', () => {
+    newList.before('test', 'w');
+    expect(newList.head.value).toEqual('w');
+  });
+
+  it('Can successfully insert after a node in the middle of the linked list', () => {
+    newList.after('test', 'Lebron James');
+    expect(newList.head.next.next.value).toEqual('Lebron James');
+  });
+
+  it('Can successfully insert a node after the last node of the linked list', () => {
+    newList.after('x', 'a');
+    expect(newList.head.next.next.next.next.value).toEqual('a');
   });
 });
