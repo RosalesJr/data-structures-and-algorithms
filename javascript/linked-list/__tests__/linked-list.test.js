@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../index');
+const LinkedList   = require('../index');
 
 describe('Linked List', () => {
   let list = new LinkedList;
@@ -67,3 +67,5 @@ describe('Linked List', () => {
     expect(newList.head.next.next.next.next.value).toEqual('a');
   });
 });
+
+
