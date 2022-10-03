@@ -23,3 +23,8 @@ To run your tests
 - [Array Reverse Challenge](./javascript/class401-challenges/array.reverse.md)
 - [Insert Shift Array](./javascript/class401-challenges/array-insert-shift.md)
 - [Array Binary Search](./javascript/class401-challenges/array-binary-search.md)
+- [Linked List](./javascript/linked-list/README.md)
+- [Linked List Insertions](./javascript/linked-list/insertions.md)
+- [Linked List KTH](./javascript/linked-list/kth.md)
+- [Linked List Zip](./javascript/linked-list/ziplist.md)
+- [Stack and Queue](./javascript/stack-and-queue/stack-and-queue.md)
