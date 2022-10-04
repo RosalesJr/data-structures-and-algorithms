@@ -104,8 +104,38 @@ class Queue{
   }
 }
 
+class Pseudo{
+  constructor(){
+    this.stack1 = new Stack();
+    this.stack2 = new Stack();
+  }
+
+  enqueue(value) {
+    if(!value){
+      return 'value is null';
+    }
+    this.stack1.push(value);
+  }
+
+  dequeue(){
+    if(this.stack1.isEmpty() && this.stack2.isEmpty()){
+      return 'Empty Queue';
+    }
+    if(this.stack2.isEmpty()){
+      while(!this.stack1.isEmpty()){
+        this.stack2.push(this.stack1.top.value);
+        this.stack1.pop();
+      }
+    }
+    let top = this.stack2.top.value;
+    this.stack2.pop();
+    return top;
+  }
+}
+
 module.exports = {
   Node,
   Stack,
   Queue,
+  Pseudo,
 };
