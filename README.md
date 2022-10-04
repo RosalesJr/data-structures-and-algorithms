@@ -28,3 +28,4 @@ To run your tests
 - [Linked List KTH](./javascript/linked-list/kth.md)
 - [Linked List Zip](./javascript/linked-list/ziplist.md)
 - [Stack and Queue](./javascript/stack-and-queue/stack-and-queue.md)
+- [Pseudo](./javascript/stack-and-queue/pseudo.md)
