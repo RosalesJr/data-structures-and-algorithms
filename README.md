@@ -29,3 +29,4 @@ To run your tests
 - [Linked List Zip](./javascript/linked-list/ziplist.md)
 - [Stack and Queue](./javascript/stack-and-queue/stack-and-queue.md)
 - [Pseudo](./javascript/stack-and-queue/pseudo.md)
+- [Brackets](./javascript//stack-and-queue/bracket.md)
