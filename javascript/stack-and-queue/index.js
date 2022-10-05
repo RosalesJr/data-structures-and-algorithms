@@ -133,9 +133,44 @@ class Pseudo{
   }
 }
 
+class AnimalShelter{
+  constructor(){
+    this.dogQueue = new Queue();
+    this.catQueue = new Queue();
+  }
+
+  enqueue(animal) {
+
+    if(animal === 'dog'){
+      this.dogQueue.enqueue(animal);
+    }
+    else if(animal === 'cat'){
+      this.catQueue.enqueue(animal);
+    }
+    else{
+      return 'Only dogs and cats at this shelter';
+    }
+  }
+
+  dequeue(pref){
+    if(pref === 'dog'){
+      let dog = this.dogQueue.dequeue();
+      return dog;
+    }
+    if(pref === 'cat'){
+      let cat = this.catQueue.dequeue();
+      return cat;
+    }
+    if(pref !== 'cat' && pref !== 'dog'){
+      return null;
+    }
+  }
+}
+
 module.exports = {
   Node,
   Stack,
   Queue,
   Pseudo,
+  AnimalShelter,
 };
