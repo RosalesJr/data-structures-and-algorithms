@@ -30,3 +30,4 @@ To run your tests
 - [Stack and Queue](./javascript/stack-and-queue/stack-and-queue.md)
 - [Pseudo](./javascript/stack-and-queue/pseudo.md)
 - [Brackets](./javascript//stack-and-queue/bracket.md)
+- [Trees](./javascript/trees/README.MD)
