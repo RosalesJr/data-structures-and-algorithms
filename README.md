@@ -31,3 +31,4 @@ To run your tests
 - [Pseudo](./javascript/stack-and-queue/pseudo.md)
 - [Brackets](./javascript//stack-and-queue/bracket.md)
 - [Trees](./javascript/trees/README.MD)
+- [Max Values](./javascript/trees/max-value.md)
