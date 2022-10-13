@@ -32,3 +32,4 @@ To run your tests
 - [Brackets](./javascript//stack-and-queue/bracket.md)
 - [Trees](./javascript/trees/README.MD)
 - [Max Values](./javascript/trees/max-value.md)
+- [FizzBuzz](./javascript/trees/fizzbuzz.md)
