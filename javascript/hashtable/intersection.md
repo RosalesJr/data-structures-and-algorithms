@@ -2,7 +2,7 @@
 
 ## Credit
 
-Worked on this with Taylor Main
+Worked on this with Tyler Main
 
 ## Challenge
 
