@@ -49,12 +49,14 @@ class Graph {
   }
 
   breadthFirst(startNode){
+    if(!startNode){
+      return null;
+    }
     const queue = [];
     const visitedNodes = new Set();
 
     queue.push(startNode);
     visitedNodes.add(startNode);
-
     while(queue.length){
       const currentNode = queue.shift();
       const neighbors = this.getNeighbors(currentNode);
