@@ -1,6 +1,6 @@
 'use strict';
 
-const Graph = require('./');
+const Graph = require('..');
 
 describe('Graph Tests', () => {
 
